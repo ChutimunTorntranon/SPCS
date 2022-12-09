@@ -3,6 +3,12 @@ import Navbar from './Components/Navbar';
 import Homepage from './Containers/Homepage';
 import Suisuipage from './Containers/Suisuipage';
 import Systempage from './Containers/Systempage';
+import Softwarepage from './Containers/Softwarepage';
+import Dashboard from './Containers/Dashboard';
+import Paperless from './Containers/Paperless';
+import Realtimepage from './Containers/Realtime';
+import Filterpage from './Containers/Filterpage';
+import CloudSubpage from './Containers/CloudSubpage';
 
 function App() {
 	return (
@@ -11,6 +17,12 @@ function App() {
 			<Homepage />
 			<Suisuipage />
 			<Systempage />
+			<Softwarepage />
+			<Dashboard />
+			<Paperless />
+			<Realtimepage />
+			<Filterpage />
+			<CloudSubpage />
 		</>
 	);
 }

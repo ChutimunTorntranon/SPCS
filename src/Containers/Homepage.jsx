@@ -4,17 +4,23 @@ function Homepage() {
 	return (
 		<div className='text-black bg-main'>
 			<div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-				<p className='text-[#8EACC1] font-bold p-2'>DATA TRANSFORMATION</p>
+				{/* <p className='text-[#8EACC1] font-bold p-2'>DATA TRANSFORMATION</p> */}
 				<h1 className='md:text-7xl sm:text-6xl text-xl font-bold md:py-6'>
 					SUISEI <br></br>CONTROL SYSTEM
 				</h1>
 				<div className='flex justify-center items-center'>
-					<p className='md:text-2xl sm:text-xl text-xl font-bold'>
+					{/* <p className='md:text-7xl sm:text-6xl text-xl font-bold'>
 						for production control &nbsp;
-					</p>
+					</p> */}
 					<Typed
-						className='md:text-2xl sm:text-xl text-xl font-bold'
-						strings={['DIGITAL', 'SAAS', 'DEVOPS', 'CLOUD BASED']}
+						className='md:text-7xl sm:text-6xl text-xl font-bold'
+						strings={[
+							'DIGITAL',
+							'SAAS',
+							'DEVOPS',
+							'CLOUD BASED',
+							'DATA TRANSFORMATION',
+						]}
 						typeSpeed={120}
 						backSpeed={140}
 						loop
