@@ -5,7 +5,7 @@ function CloudSubpage() {
 	return (
 		<div className='w-full bg-white py-16 px-4 '>
 			<div className='max-w-[1240px] mx-auto grid md:grid-cols-2 gap-4'>
-				<div className='flex flex-col justify-center'>
+				<div className='flex flex-col'>
 					<img className='w-[400px]' src={cloud} alt='/' />
 					<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black'>
 						Cloud Based
@@ -20,7 +20,7 @@ function CloudSubpage() {
 						System ได้มากกว่า
 					</p>
 				</div>
-				<div className='flex flex-col justify-center'>
+				<div className='flex flex-col '>
 					<img className='w-[400px]' src={cheap} alt='/' />
 					<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black'>
 						Subscription

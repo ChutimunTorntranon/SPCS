@@ -10,16 +10,16 @@ function Navbar() {
 
 	return (
 		<header className=''>
-			<img src='logonavbar.png' alt='' className=''></img>
+			<img src='edit-logo.png' alt='' className=''></img>
 			<nav ref={navRef}>
-				<a href='/#' className=''>
+				<a href='/#' className='hover-underline-animation'>
 					Home
 				</a>
 
-				<a href='/#' className=''>
+				<a href='/#' className='hover-underline-animation'>
 					Contact Us
 				</a>
-				<div></div>
+
 				<button className='nav-btn nav-close-btn' onClick={showNavbar}>
 					Back
 				</button>

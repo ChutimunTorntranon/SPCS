@@ -7,7 +7,7 @@ import warehouse from '../assets/warehouse.jpg';
 import Logis from '../assets/Logis.jpg';
 function Systempage() {
 	return (
-		<div className='w-full py-16 px-4 bg-white'>
+		<div className='w-full py-16 px-4'>
 			<div className='max-w-[1240px] mx-auto grid gap-4'>
 				<div className='flex flex-col justify-center'>
 					<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
@@ -21,8 +21,8 @@ function Systempage() {
 					</h1>
 				</div>
 				<div className='grid md:grid-cols-3 gap-3'>
-					<div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700'>
-						<img className='rounded-t-lg' src={material} alt='' />
+					<div className='max-w-sm bg-gray-300 border border-gray-300 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 shrink'>
+						<img className='rounded-t-lg bg-gray-300' src={material} alt='' />
 
 						<div className='p-5'>
 							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
@@ -39,7 +39,7 @@ function Systempage() {
 							</p>
 						</div>
 					</div>
-					<div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700'>
+					<div className='max-w-sm bg-gray-300 border border-gray-300 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 shrink'>
 						<img className='rounded-t-lg' src={planning} alt='' />
 
 						<div className='p-5'>
@@ -53,7 +53,7 @@ function Systempage() {
 							</p>
 						</div>
 					</div>
-					<div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700'>
+					<div className='max-w-sm bg-gray-300 border border-gray-300 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 shrink'>
 						<img className='rounded-t-lg' src={production} alt='' />
 
 						<div className='p-5'>
@@ -70,7 +70,7 @@ function Systempage() {
 					</div>
 				</div>
 				<div className='grid md:grid-cols-3 gap-3'>
-					<div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700'>
+					<div className='max-w-sm bg-gray-300 border border-gray-300 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 shrink'>
 						<img className='rounded-t-lg' src={quality} alt='' />
 
 						<div className='p-5'>
@@ -87,7 +87,7 @@ function Systempage() {
 							</p>
 						</div>
 					</div>
-					<div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700'>
+					<div className='max-w-sm bg-gray-300 border border-gray-300 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 shrink'>
 						<img className='rounded-t-lg' src={warehouse} alt='' />
 
 						<div className='p-5'>
@@ -105,7 +105,7 @@ function Systempage() {
 							</p>
 						</div>
 					</div>
-					<div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700'>
+					<div className='max-w-sm bg-gray-300 border border-gray-300 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 shrink'>
 						<img className='rounded-t-lg' src={Logis} alt='' />
 
 						<div className='p-5'>
