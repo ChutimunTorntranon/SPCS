@@ -93,7 +93,6 @@ nav {
 		background-color: var(--thirdColor);
 		transition: 1s;
 		transform: translateY(-100vh);
-		/* margin-top:  dsa; */
 	}
 
 	header .responsive_nav {
