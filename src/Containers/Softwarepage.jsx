@@ -16,38 +16,38 @@ function Softwarepage() {
 					Software as a service
 				</h1>
 				<div className='grid md:grid-cols-6 gap-5'>
-					<div className='text-center'>
+					<div className='text-center shrink'>
 						<img src={dashboard} alt='' />
 						<h1>Dashboard System</h1>
 						<h2>ระบบแดชบอร์ด</h2>
 					</div>
-					<div className='text-center'>
+					<div className='text-center shrink'>
 						<img src={paperless} alt='' />
 						<h1>Paperless</h1>
 						<h2>
 							ลดการใช้กระดาษ<br></br>อย่างไม่จำเป็นในองค์กร
 						</h2>
 					</div>
-					<div className='text-center'>
+					<div className='text-center shrink'>
 						<img src={realTime} alt='' />
 						<h1>Real-time</h1>
 						<h2>
 							สามารถ Monitor และ Control สายการผลิต<br></br>ได้ถูกต้องรวดเร็ว
 						</h2>
 					</div>
-					<div className='text-center'>
+					<div className='text-center shrink'>
 						<img src={filter} alt='' />
 						<h1>Search and Filter</h1>
 						<h2>สืบค้นข้อมูลที่มากมายด้วยระบบ Search and Filter</h2>
 					</div>
-					<div className='text-center'>
+					<div className='text-center shrink'>
 						<img src={cloud} alt='' />
 						<h1>Cloud Based Technology</h1>
 						<h2>
 							นำข้อมูลจากการเก็บแบบ Local มาจัดเก็บใน Cloud based Service แทน
 						</h2>
 					</div>
-					<div className='text-center'>
+					<div className='text-center shrink'>
 						<img src={cheap} alt='' />
 						<h1>Subscription-based Model</h1>
 						<h2>

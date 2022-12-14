@@ -9,6 +9,7 @@ import Paperless from './Containers/Paperless';
 import Realtimepage from './Containers/Realtime';
 import Filterpage from './Containers/Filterpage';
 import CloudSubpage from './Containers/CloudSubpage';
+import Footer from './Components/Footer';
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 			<Realtimepage />
 			<Filterpage />
 			<CloudSubpage />
+			<Footer />
 		</>
 	);
 }
