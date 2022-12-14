@@ -11,8 +11,8 @@ function Footer() {
 
 							<p className='text-body-color mb-7 text-base'>
 								บริษัท ด บุนนาค ชุบโครเมี่ยม จำกัด <br></br>
-								12/65 กม 14 หมู่ 21 ซอย 117 ถนนรามอินทรา <br></br>เขตมีนบุรี
-								กรุงเทพมหานคร 10510
+								12/65 กม 14 หมู่ 21 ซอย 117 ถนนรามอินทรา <br></br>
+								เขตมีนบุรี กรุงเทพมหานคร 10510
 							</p>
 							<p className='text-dark flex items-center text-sm font-medium'>
 								<span>0-2517-7227</span>,<span>0-2918-5463</span>
