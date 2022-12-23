@@ -10,15 +10,13 @@ function Footer() {
 							<img src='edit-logo.png' alt='logo' className='max-w-full' />
 
 							<p className='text-body-color mb-7 text-base'>
-								&nbsp;&nbsp;ที่อยู่ : บริษัท ด บุนนาค ชุบโครเมี่ยม จำกัด{' '}
-								<br></br>
+								&nbsp;&nbsp;ที่อยู่ : บริษัท ด บุนนาค จำกัด <br></br>
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12/65
 								กม 14 หมู่ 21 ซอย 117 ถนนรามอินทรา <br></br>
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เขตมีนบุรี
 								กรุงเทพมหานคร 10510<br></br>
-								Phone : 086-328-1640 , 095-248-4609(คุณณัฏฐ์)<br></br>
+								Phone : 095-248-3230 , 095-248-4609(คุณณัฏฐ์)<br></br>
 								Email : sale.software@baethai.com<br></br>
-								Email2 : it_bae@baethai.com
 							</p>
 						</div>
 					</div>
