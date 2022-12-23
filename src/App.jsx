@@ -10,6 +10,7 @@ import Realtimepage from './Containers/Realtime';
 import Filterpage from './Containers/Filterpage';
 import CloudSubpage from './Containers/CloudSubpage';
 import Footer from './Components/Footer';
+import MainCustomer from './Containers/MainCustomer';
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 			<Realtimepage />
 			<Filterpage />
 			<CloudSubpage />
+			<MainCustomer />
 			<Footer />
 		</>
 	);

@@ -10,16 +10,19 @@ function Footer() {
 							<img src='edit-logo.png' alt='logo' className='max-w-full' />
 
 							<p className='text-body-color mb-7 text-base'>
-								บริษัท ด บุนนาค ชุบโครเมี่ยม จำกัด <br></br>
-								12/65 กม 14 หมู่ 21 ซอย 117 ถนนรามอินทรา <br></br>
-								เขตมีนบุรี กรุงเทพมหานคร 10510
-							</p>
-							<p className='text-dark flex items-center text-sm font-medium'>
-								<span>0-2517-7227</span>,<span>0-2918-5463</span>
+								&nbsp;&nbsp;ที่อยู่ : บริษัท ด บุนนาค ชุบโครเมี่ยม จำกัด{' '}
+								<br></br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12/65
+								กม 14 หมู่ 21 ซอย 117 ถนนรามอินทรา <br></br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เขตมีนบุรี
+								กรุงเทพมหานคร 10510<br></br>
+								Phone : 086-328-1640 , 095-248-4609(คุณณัฏฐ์)<br></br>
+								Email : sale.software@baethai.com<br></br>
+								Email2 : it_bae@baethai.com
 							</p>
 						</div>
 					</div>
-					<div className='w-full px-4 sm:w-1/2 lg:w-2/12'>
+					{/* <div className='w-full px-4 sm:w-1/2 lg:w-2/12'>
 						<div className='mt-12 w-full'>
 							<h4 className='text-dark mb-9 text-lg font-semibold'>
 								Resources
@@ -59,8 +62,8 @@ function Footer() {
 								</li>
 							</ul>
 						</div>
-					</div>
-					<div className='w-full px-4 sm:w-1/2 lg:w-2/12'>
+					</div> */}
+					{/* <div className='w-full px-4 sm:w-1/2 lg:w-2/12'>
 						<div className='mt-12 w-full'>
 							<h4 className='text-dark mb-9 text-lg font-semibold'>Company</h4>
 							<ul>
@@ -98,8 +101,8 @@ function Footer() {
 								</li>
 							</ul>
 						</div>
-					</div>
-					<div className='w-full px-4 sm:w-1/2 lg:w-2/12'>
+					</div> */}
+					{/* <div className='w-full px-4 sm:w-1/2 lg:w-2/12'>
 						<div className='mt-12 w-full'>
 							<h4 className='text-dark mb-9 text-lg font-semibold'>
 								Quick Links
@@ -139,7 +142,7 @@ function Footer() {
 								</li>
 							</ul>
 						</div>
-					</div>
+					</div> */}
 					<div className='w-full px-4 sm:w-1/2 lg:w-3/12'>
 						<div className='mt-12 w-full'>
 							<h4 className='text-dark mb-9 text-lg font-semibold'>

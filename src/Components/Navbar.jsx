@@ -1,6 +1,8 @@
 import React from 'react';
 import { useRef } from 'react';
+
 import '../index.css';
+
 function Navbar() {
 	const navRef = useRef();
 
@@ -12,13 +14,16 @@ function Navbar() {
 		<header className=''>
 			<img src='edit-logo.png' alt='' className=''></img>
 			<nav ref={navRef}>
-				<a href='/#' className='hover-underline-animation'>
+				{/* <a href='/#' className='hover-underline-animation'>
 					Home
 				</a>
 
-				<a href='/#' className='hover-underline-animation'>
-					Contact Us
-				</a>
+				<a
+					href='/Customers'
+					className='hover-underline-animation cursor-pointer'
+				>
+					Main Customers
+				</a> */}
 
 				<button className='nav-btn nav-close-btn' onClick={showNavbar}>
 					Back
