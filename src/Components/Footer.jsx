@@ -1,5 +1,6 @@
 import React from 'react';
-import bitsoft from '../icons/MicrosoftTeams-image.png';
+// import bitsoft from '../icons/Logo.png';
+import LogoCom from '../team/Logo.png';
 function Footer() {
 	return (
 		<footer className='relative bg-[#FFFFFF] pt-20 pb-10 lg:pt-[120px] lg:pb-20 shadow-2xl shadow-black'>
@@ -9,7 +10,7 @@ function Footer() {
 					<div className='w-full px-4 sm:w-2/3 lg:w-3/12'>
 						<div className='mb-5 w-[1000px]'>
 							<img
-								src={bitsoft}
+								src={LogoCom}
 								alt='logo'
 								className='w-[230px] ml-12 h-[220px]'
 							/>
@@ -23,6 +24,7 @@ function Footer() {
 								กรุงเทพมหานคร 10510<br></br>
 								Phone : 095-248-3230 , 095-248-4609(คุณณัฐดนัย (ฟิวส์))<br></br>
 								Email : sale.software@baethai.com<br></br>
+								Line &nbsp;&nbsp;: sale.BITSOFT
 							</p>
 						</div>
 					</div>
