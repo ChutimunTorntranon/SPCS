@@ -1,6 +1,6 @@
 import React from 'react';
-import CEO from '../team/Screenshot 2566-01-09 at 15.40.27.png';
-import COO from '../team/Screenshot 2566-01-09 at 15.42.18.png';
+import CEO from '../team/edit/CEO.png';
+import COO from '../team/edit/COO.png';
 import CTO from '../team/Bhon-bf213f79082f4f8b367de6d3d63aa9bf.png.webp';
 import SER from '../team/322021698_3283942625151822_1852047620413036194_n.jpg';
 import SER2 from '../team/64725083_1223629441138482_8674302962467602432_o.jpg';
