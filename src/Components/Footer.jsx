@@ -6,27 +6,29 @@ function Footer() {
 		<footer className='relative bg-[#FFFFFF] pt-20 pb-10 lg:pt-[120px] lg:pb-20 shadow-2xl shadow-black'>
 			<div className='mt-[-100px] w-40 shadow-2xl shadow-black border-solid border-black'></div>
 			<div className='container mx-auto'>
-				<div className='w-mx-4 flex flex-wrap'>
-					<div className='w-full px-4 sm:w-2/3 lg:w-3/12'>
-						<div className='mb-5 w-[1000px]'>
+				<div className='w-mx-4 flex'>
+					<div className='w-full px-4 sm:w-2/3 lg:w-9/12 my-auto'>
+						<div className='mb-5 w-[1200px] flex mt-8'>
 							<img
 								src={LogoCom}
 								alt='logo'
-								className='w-[230px] ml-12 h-[220px]'
+								className='w-[330px] ml-12 h-[330px]'
 							/>
-
-							<p className='text-body-color mb-7 text-base'>
+							<p className='text-body-color my-auto text-base mx-8'>
 								&nbsp;&nbsp;ที่อยู่ : Bunnag Industrial Technologies And
 								Software<br></br>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12/65
-								กม 14 หมู่ 21 ซอย 117 ถนนรามอินทรา <br></br>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เขตมีนบุรี
-								กรุงเทพมหานคร 10510<br></br>
-								Phone : 095-248-3230 , 095-248-4609(คุณณัฐดนัย (ฟิวส์))<br></br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10
+								รามอินทรา 117 แยก 2 ถนนรามอินทรา แขวงมีนบุรี เขตมีนบุรี
+								กรุงเทพมหานคร 10510
+								<br></br>
+								Phone : 095-248-3230 , 095-248-4609&nbsp;&nbsp;คุณ&nbsp;ณัฐดนัย
+								(ฟิวส์)
+								<br></br>
 								Email : sale.software@baethai.com<br></br>
-								Line &nbsp;&nbsp;: sale.BITSOFT
+								IDLine &nbsp;&nbsp;: sale.bitsoft
 							</p>
 						</div>
+						<div className='mb-5 w-[1000px]'></div>
 					</div>
 					{/* <div className='w-full px-4 sm:w-1/2 lg:w-2/12'>
 						<div className='mt-12 w-full'>
@@ -149,7 +151,7 @@ function Footer() {
 							</ul>
 						</div>
 					</div> */}
-					<div className='w-full px-4 sm:w-1/2 lg:w-3/12 ml-5'>
+					<div className='w-full px-4 sm:w-1/2 lg:w-3/12 ml-5 my-auto'>
 						<div className='mt-12 w-full'>
 							<h4 className='text-dark mb-9 text-lg font-semibold'>
 								Follow Us On

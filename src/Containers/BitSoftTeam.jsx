@@ -2,7 +2,7 @@ import React from 'react';
 import CEO from '../team/messageImage_1673245301171.jpg';
 import COO from '../team/messageImage_1673245311619.jpg';
 import CTO from '../team/Bhon-bf213f79082f4f8b367de6d3d63aa9bf.png.webp';
-import SER from '../team/23275572_881222465360354_5948001324726414424_o.jpg';
+import SER from '../team/322021698_3283942625151822_1852047620413036194_n.jpg';
 import SER2 from '../team/64725083_1223629441138482_8674302962467602432_o.jpg';
 import SALE from '../team/few.jpg';
 import DEV from '../team/136759708_3848254078571096_4978116173305225020_n.jpg';
