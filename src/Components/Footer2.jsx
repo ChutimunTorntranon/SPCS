@@ -19,7 +19,7 @@ function Footer2() {
 						<br></br>
 					</p>
 					<p className='text-body-color text-base ml-10'>
-						Phone :083-101-8704&nbsp;&nbsp;คุณ&nbsp;ณัฐดนัย (ฟิวส์)
+						Phone :&nbsp;083-101-8704&nbsp;&nbsp;คุณ&nbsp;ณัฐดนัย (ฟิวส์)
 						<br></br>
 						Email : sale.software@baethai.com<br></br>
 						IDLine &nbsp;&nbsp;: sale.bitsoft
