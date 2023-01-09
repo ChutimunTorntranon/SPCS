@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './Components/Navbar';
+// import Navbar from './Components/Navbar';
 import Homepage from './Containers/Homepage';
 import Suisuipage from './Containers/Suisuipage';
 import Systempage from './Containers/Systempage';
@@ -12,11 +12,12 @@ import CloudSubpage from './Containers/CloudSubpage';
 import Footer from './Components/Footer';
 import MainCustomer from './Containers/MainCustomer';
 import BitSoftTeam from './Containers/BitSoftTeam';
+import Footer2 from './Components/Footer2';
 
 function App() {
 	return (
 		<>
-			<Navbar />
+			{/* <Navbar /> */}
 			<Homepage />
 			<Suisuipage />
 			<Systempage />
@@ -28,7 +29,7 @@ function App() {
 			<CloudSubpage />
 			<MainCustomer />
 			<BitSoftTeam />
-			<Footer />
+			<Footer2 />
 		</>
 	);
 }

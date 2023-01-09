@@ -5,7 +5,7 @@ function Footer() {
 	return (
 		<footer className='relative bg-[#FFFFFF] pt-20 pb-10 lg:pt-[120px] lg:pb-20 shadow-2xl shadow-black'>
 			<div className='mt-[-100px] w-40 shadow-2xl shadow-black border-solid border-black'></div>
-			<div className='container mx-auto'>
+			<div className='container mx-auto flex'>
 				<div className='w-mx-4 flex'>
 					<div className='w-full px-4 sm:w-2/3 lg:w-9/12 my-auto'>
 						<div className='mb-5 w-[1200px] flex mt-8'>
@@ -30,127 +30,6 @@ function Footer() {
 						</div>
 						<div className='mb-5 w-[1000px]'></div>
 					</div>
-					{/* <div className='w-full px-4 sm:w-1/2 lg:w-2/12'>
-						<div className='mt-12 w-full'>
-							<h4 className='text-dark mb-9 text-lg font-semibold'>
-								Resources
-							</h4>
-							<ul>
-								<li>
-									<a
-										href='javascript:void(0)'
-										className='text-body-color hover:text-primary mb-2 inline-block text-base leading-loose'
-									>
-										SaaS Development
-									</a>
-								</li>
-								<li>
-									<a
-										href='javascript:void(0)'
-										className='text-body-color hover:text-primary mb-2 inline-block text-base leading-loose'
-									>
-										Our Products
-									</a>
-								</li>
-								<li>
-									<a
-										href='javascript:void(0)'
-										className='text-body-color hover:text-primary mb-2 inline-block text-base leading-loose'
-									>
-										User Flow
-									</a>
-								</li>
-								<li>
-									<a
-										href='javascript:void(0)'
-										className='text-body-color hover:text-primary mb-2 inline-block text-base leading-loose'
-									>
-										User Strategy
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div> */}
-					{/* <div className='w-full px-4 sm:w-1/2 lg:w-2/12'>
-						<div className='mt-12 w-full'>
-							<h4 className='text-dark mb-9 text-lg font-semibold'>Company</h4>
-							<ul>
-								<li>
-									<a
-										href='javascript:void(0)'
-										className='text-body-color hover:text-primary mb-2 inline-block text-base leading-loose'
-									>
-										About TailGrids
-									</a>
-								</li>
-								<li>
-									<a
-										href='javascript:void(0)'
-										className='text-body-color hover:text-primary mb-2 inline-block text-base leading-loose'
-									>
-										Contact & Support
-									</a>
-								</li>
-								<li>
-									<a
-										href='javascript:void(0)'
-										className='text-body-color hover:text-primary mb-2 inline-block text-base leading-loose'
-									>
-										Success History
-									</a>
-								</li>
-								<li>
-									<a
-										href='javascript:void(0)'
-										className='text-body-color hover:text-primary mb-2 inline-block text-base leading-loose'
-									>
-										Setting & Privacy
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div> */}
-					{/* <div className='w-full px-4 sm:w-1/2 lg:w-2/12'>
-						<div className='mt-12 w-full'>
-							<h4 className='text-dark mb-9 text-lg font-semibold'>
-								Quick Links
-							</h4>
-							<ul>
-								<li>
-									<a
-										href='javascript:void(0)'
-										className='text-body-color hover:text-primary mb-2 inline-block text-base leading-loose'
-									>
-										Premium Support
-									</a>
-								</li>
-								<li>
-									<a
-										href='javascript:void(0)'
-										className='text-body-color hover:text-primary mb-2 inline-block text-base leading-loose'
-									>
-										Our Services
-									</a>
-								</li>
-								<li>
-									<a
-										href='javascript:void(0)'
-										className='text-body-color hover:text-primary mb-2 inline-block text-base leading-loose'
-									>
-										Know Our Team
-									</a>
-								</li>
-								<li>
-									<a
-										href='javascript:void(0)'
-										className='text-body-color hover:text-primary mb-2 inline-block text-base leading-loose'
-									>
-										Download App
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div> */}
 					<div className='w-full px-4 sm:w-1/2 lg:w-3/12 ml-5 my-auto'>
 						<div className='mt-12 w-full'>
 							<h4 className='text-dark mb-9 text-lg font-semibold'>

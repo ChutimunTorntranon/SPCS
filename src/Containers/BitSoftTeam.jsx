@@ -1,6 +1,6 @@
 import React from 'react';
-import CEO from '../team/messageImage_1673245301171.jpg';
-import COO from '../team/messageImage_1673245311619.jpg';
+import CEO from '../team/Screenshot 2566-01-09 at 15.40.27.png';
+import COO from '../team/Screenshot 2566-01-09 at 15.42.18.png';
 import CTO from '../team/Bhon-bf213f79082f4f8b367de6d3d63aa9bf.png.webp';
 import SER from '../team/322021698_3283942625151822_1852047620413036194_n.jpg';
 import SER2 from '../team/64725083_1223629441138482_8674302962467602432_o.jpg';
@@ -21,7 +21,7 @@ function BitSoftTeam() {
 						<p>Chief Executive Officer (CEO)</p>
 					</div>
 					<div className='text-center'>
-						<img src={COO} alt='' className='mx-auto'></img>
+						<img src={COO} alt='' className='mx-auto w-[300px]'></img>
 						<p className='mt-5'>K.Patcharee Bunnag</p>
 						<p>Chief Operating Officer (COO)</p>
 					</div>
