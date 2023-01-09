@@ -1,21 +1,27 @@
 import React from 'react';
-
+import bitsoft from '../icons/MicrosoftTeams-image.png';
 function Footer() {
 	return (
-		<footer className='relative bg-[#3464AB] pt-20 pb-10 lg:pt-[120px] lg:pb-20'>
+		<footer className='relative bg-[#FFFFFF] pt-20 pb-10 lg:pt-[120px] lg:pb-20 shadow-2xl shadow-black'>
+			<div className='mt-[-100px] w-40 shadow-2xl shadow-black border-solid border-black'></div>
 			<div className='container mx-auto'>
 				<div className='w-mx-4 flex flex-wrap'>
 					<div className='w-full px-4 sm:w-2/3 lg:w-3/12'>
-						<div className='mb-5 w-full'>
-							<img src='edit-logo.png' alt='logo' className='max-w-full' />
+						<div className='mb-5 w-[1000px]'>
+							<img
+								src={bitsoft}
+								alt='logo'
+								className='w-[230px] ml-12 h-[220px]'
+							/>
 
 							<p className='text-body-color mb-7 text-base'>
-								&nbsp;&nbsp;ที่อยู่ : บริษัท ด บุนนาค จำกัด <br></br>
+								&nbsp;&nbsp;ที่อยู่ : Bunnag Industrial Technologies And
+								Software<br></br>
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12/65
 								กม 14 หมู่ 21 ซอย 117 ถนนรามอินทรา <br></br>
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เขตมีนบุรี
 								กรุงเทพมหานคร 10510<br></br>
-								Phone : 095-248-3230 , 095-248-4609(คุณณัฏฐ์)<br></br>
+								Phone : 095-248-3230 , 095-248-4609(คุณณัฐดนัย (ฟิวส์))<br></br>
 								Email : sale.software@baethai.com<br></br>
 							</p>
 						</div>
@@ -141,7 +147,7 @@ function Footer() {
 							</ul>
 						</div>
 					</div> */}
-					<div className='w-full px-4 sm:w-1/2 lg:w-3/12'>
+					<div className='w-full px-4 sm:w-1/2 lg:w-3/12 ml-5'>
 						<div className='mt-12 w-full'>
 							<h4 className='text-dark mb-9 text-lg font-semibold'>
 								Follow Us On
