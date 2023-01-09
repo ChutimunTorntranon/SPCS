@@ -16,8 +16,10 @@ function MainCustomer() {
 
 					<p className='text-2xl font-light text-black mt-3'>
 						บริษัท บราเดอร์ ออโต้พาร์ทส์ แอนด์ เอ็นจิเนียริ่ง จำกัด
-						ดำเนินธุรกิจผลิตชิ้นส่วนยานยนต์(โลหะ)
-						ได้รับความไว้วางใจจากลูกค้าเช่น Mitsubishi, Honda, Nissan
+						1.ดำเนินธุรกิจผลิตชิ้นส่วนยานยนต์(โลหะ)
+						ได้รับความไว้วางใจจากลูกค้าเช่น Mitsubishi, Honda, Nissan<br></br>
+						2.ดำเนินการธุรกิจด้านอิเล็กทรอนิกส์(โลหะ) เช่น Hitachi,Emerson,Asia
+						Pacific CIS
 					</p>
 				</div>
 				<div className='max-w-[1000px]'>

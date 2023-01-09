@@ -11,6 +11,7 @@ import Filterpage from './Containers/Filterpage';
 import CloudSubpage from './Containers/CloudSubpage';
 import Footer from './Components/Footer';
 import MainCustomer from './Containers/MainCustomer';
+import BitSoftTeam from './Containers/BitSoftTeam';
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 			<Filterpage />
 			<CloudSubpage />
 			<MainCustomer />
+			<BitSoftTeam />
 			<Footer />
 		</>
 	);
