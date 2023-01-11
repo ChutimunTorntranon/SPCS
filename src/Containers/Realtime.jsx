@@ -4,7 +4,7 @@ import update from '../Carusel Dashborad/realgif.gif';
 function Realtimepage() {
 	return (
 		<div className='w-full bg-white py-16 px-4 '>
-			<div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+			<div className='w-full container mx-auto grid md:grid-cols-2'>
 				<div className='flex flex-col justify-center w-[450px]'>
 					<img className='w-[450px]' src={Realtime} alt='/' />
 					<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black'>
@@ -20,11 +20,11 @@ function Realtimepage() {
 						โดยรวมของเครื่องจักร (OEE - Overall Eqiupment Effectiveness)
 					</p>
 				</div>
-				<div className='max-w-[800px]'>
+				<div className='max-w-[1000px]'>
 					<img
 						src={update}
 						alt=''
-						className='w-[800px] h-[600px] mt-[5%]'
+						className='w-[1000px] h-[600px] mt-[5%]'
 					></img>
 				</div>
 			</div>

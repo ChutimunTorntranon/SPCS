@@ -22,7 +22,7 @@ function MainCustomer() {
 						Pacific CIS
 					</p>
 				</div>
-				<div className='max-w-[1000px]'>
+				<div className='max-w-[1000px] my-auto'>
 					<img
 						src={photo}
 						alt=''

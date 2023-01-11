@@ -4,7 +4,7 @@ import gifFilter from '../assets/filtergif.gif';
 function Filterpage() {
 	return (
 		<div className='w-full bg-white py-16 px-4 '>
-			<div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+			<div className='w-full container mx-auto grid md:grid-cols-2'>
 				<div className='flex flex-col justify-center w-[450px]'>
 					<img className='w-[450px]' src={Filter} alt='/' />
 					<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black'>
@@ -17,8 +17,8 @@ function Filterpage() {
 						เพื่อนำข้อมูลสายการผลิตมาสู่กระบวนการวิเคราะห์ปัญหาได้อย่างรวดเร็ว
 					</p>
 				</div>
-				<div className='max-w-[800px]'>
-					<img src={gifFilter} alt='' className='w-[800px] h-[600px]'></img>
+				<div className='max-w-[1000px]'>
+					<img src={gifFilter} alt='' className='w-[1000px] h-[600px]'></img>
 				</div>
 			</div>
 		</div>
