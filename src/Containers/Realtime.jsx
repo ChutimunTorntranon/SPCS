@@ -3,8 +3,8 @@ import Realtime from '../icons/real-time1.png';
 import update from '../Carusel Dashborad/realgif.gif';
 function Realtimepage() {
 	return (
-		<div className='w-full bg-white py-16 px-4 '>
-			<div className='w-full container mx-auto grid md:grid-cols-2'>
+		<div className='bg-white container mx-auto py-10'>
+			<div className='w-full container grid md:grid-cols-2 sm:grid-cols-1 px-20'>
 				<div className='flex flex-col justify-center w-[450px]'>
 					<img className='w-[450px]' src={Realtime} alt='/' />
 					<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black'>

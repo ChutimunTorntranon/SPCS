@@ -1,12 +1,12 @@
 import React from 'react';
-import CEO from '../team/edit/CEO.png';
-import COO from '../team/edit/COO.png';
-import CTO from '../team/Bhon-bf213f79082f4f8b367de6d3d63aa9bf.png.webp';
-import SER from '../team/322021698_3283942625151822_1852047620413036194_n.jpg';
-import SER2 from '../team/64725083_1223629441138482_8674302962467602432_o.jpg';
-import SALE from '../team/few.jpg';
-import DEV from '../team/136759708_3848254078571096_4978116173305225020_n.jpg';
-import TECH from '../team/Screenshot 2566-01-09 at 14.33.15.png';
+import CEO from '../team/CEO.png';
+import COO from '../team/COO.png';
+import CTO from '../team/PBhon.png';
+import SER from '../team/Hnuy.png';
+import SER2 from '../team/Golf.png';
+import SALE from '../team/Few.png';
+import DEV from '../team/Jeff.png';
+import TECH from '../team/PDong.png';
 function BitSoftTeam() {
 	return (
 		<div className='bg-[#FFFFFF]'>
@@ -26,7 +26,7 @@ function BitSoftTeam() {
 						<p>Chief Operating Officer (COO)</p>
 					</div>
 					<div className='text-center'>
-						<img src={CTO} alt='' className='mx-auto w-[285px]'></img>
+						<img src={CTO} alt='' className='mx-auto w-[300px]'></img>
 						<p className='mt-5'>K.Bhon Bunnag</p>
 						<p>Chief Technology Officer (CTO)</p>
 					</div>
