@@ -45,7 +45,7 @@ function BitSoftTeam() {
 					<div className='text-center'>
 						<img src={TECH} alt='' className='mx-auto w-[200px]'></img>
 						<p className='mt-5'>Kittisak Boonpinyo (Dong)</p>
-						<p>Technician</p>
+						<p>Technical Specialist</p>
 					</div>
 					<div className='text-center'>
 						<img src={SALE} alt='' className='mx-auto w-[200px]'></img>

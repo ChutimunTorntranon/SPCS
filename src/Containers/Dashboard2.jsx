@@ -1,12 +1,28 @@
 import React from 'react';
-import paperless from '../icons/paperless2.png';
-import img1 from '../gallery/Paperless/Paper1.png';
-import img2 from '../gallery/Paperless/Paper2.png';
-import img3 from '../gallery/Paperless/Paper3.png';
+import img1 from '../gallery/DashBoard/Dash1.png';
+import img2 from '../gallery/DashBoard/Dash2.png';
+import img3 from '../gallery/DashBoard/Dash3.png';
+import img4 from '../gallery/DashBoard/Dash4.png';
+import img5 from '../gallery/DashBoard/Dash5.png';
+import img6 from '../gallery/DashBoard/Dash6.png';
+import img7 from '../gallery/DashBoard/Dash7.png';
+import img8 from '../gallery/DashBoard/Dash8.png';
+// import { Carousel } from 'flowbite-react';
 import { useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-function Paperless() {
-	const slides = [{ url: img1 }, { url: img2 }, { url: img3 }];
+// import { RxDotFilled } from 'react-icons/rx'
+import dashboard from '../icons/dashboard2.png';
+function Dashboard2() {
+	const slides = [
+		{ url: img1 },
+		{ url: img2 },
+		{ url: img3 },
+		{ url: img4 },
+		{ url: img5 },
+		{ url: img6 },
+		{ url: img7 },
+		{ url: img8 },
+	];
 
 	const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -53,16 +69,17 @@ function Paperless() {
 						</div>
 					</div>
 					<div className='col-span-1 flex flex-col w-[450px] mx-auto text-center'>
-						<img className='w-[400px] mx-auto' src={paperless} alt='/' />
+						<img className='w-[400px] mx-auto' src={dashboard} alt='/' />
 						<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black'>
-							Paperless
+							DashBoard
 						</h1>
 						<p className='text-black font-bold md:text-4xl sm:text-3xl text-2xl'>
-							Manufacturing{' '}
+							Single Pane of Glass{' '}
 						</p>
 						<p className='text-xl font-light text-black md:text-2xl sm:text-xl'>
-							ยกเลิกการใช้กระดาษในการลงบันทึกข้อมูลสายการผลิต<br></br>
-							รวมถึงลดความผิดพลาดของการลงบันทึก
+							DashBoard ที่ออกแบบเพื่อวิเคราะห์ข้อมูลด้วย<br></br> Data
+							Visualization เพื่อให้เห็นภาพรวม <br></br>
+							แนวโน้มของข้อมูลได้อย่างรวดเร็ว
 						</p>
 					</div>
 				</div>
@@ -71,4 +88,4 @@ function Paperless() {
 	);
 }
 
-export default Paperless;
+export default Dashboard2;

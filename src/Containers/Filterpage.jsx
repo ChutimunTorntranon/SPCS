@@ -1,24 +1,78 @@
 import React from 'react';
 import Filter from '../icons/filter2.png';
-import gifFilter from '../assets/filtergif.gif';
-function Filterpage() {
-	return (
-		<div className='bg-white container mx-auto py-10'>
-			<div className='w-full container grid md:grid-cols-2 sm:grid-cols-1 px-20'>
-				<div className='flex flex-col justify-center w-[450px]'>
-					<img className='w-[450px]' src={Filter} alt='/' />
-					<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black'>
-						Search and Filter
-					</h1>
+import img1 from '../gallery/Filter/Fil1.png';
+import img2 from '../gallery/Filter/Fil2.png';
+import img3 from '../gallery/Filter/Fil3.png';
+import img4 from '../gallery/Filter/Fil4.png';
+import img5 from '../gallery/Filter/Fil5.png';
 
-					<p className='text-2xl font-light text-black'>
-						ข้อมูลสายการผลิตที่มีมากมาย สามารถสืบค้นหาข้อมูลการผลิตด้วยระบบ
-						Search and Filter
-						เพื่อนำข้อมูลสายการผลิตมาสู่กระบวนการวิเคราะห์ปัญหาได้อย่างรวดเร็ว
-					</p>
-				</div>
-				<div className='max-w-[1000px]'>
-					<img src={gifFilter} alt='' className='w-[1000px] h-[600px]'></img>
+import { useState } from 'react';
+import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
+function Filterpage() {
+	const slides = [
+		{ url: img1 },
+		{ url: img2 },
+		{ url: img3 },
+		{ url: img4 },
+		{ url: img5 },
+	];
+
+	const [currentIndex, setCurrentIndex] = useState(0);
+
+	const prevSlide = () => {
+		const isFirstSlide = currentIndex === 0;
+		const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+		setCurrentIndex(newIndex);
+	};
+	const nextSlide = () => {
+		const isLastSlide = currentIndex === slides.length - 1;
+		const newIndex = isLastSlide ? 0 : currentIndex + 1;
+		setCurrentIndex(newIndex);
+	};
+
+	const goToSlide = (slideIndex) => {
+		setCurrentIndex(slideIndex);
+	};
+	return (
+		<div>
+			<div className='mx-auto container'>
+				<div className='grid lg:grid-cols-2 sm:grid-cols-1 mx-auto'>
+					<div className='h-[400px] w-[400px] sm:h-[500px] sm:w-[450px] col-span-1 my-auto lg:h-[600px] lg:w-[800px] m-auto py-16 px-4 relative group'>
+						<div
+							style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+							className='w-full h-full bg-center bg-cover duration-500'
+						></div>
+
+						<div className='hidden group-hover:block absolute top-[50%] -translate-x-0 -translate-y-[50%] left-5 text-2xl round-full p-2 bg-black/20 text-white cursor-pointer'>
+							<BsChevronCompactLeft onClick={prevSlide} size={30} />
+						</div>
+
+						<div className='hidden group-hover:block absolute top-[50%] -translate-x-0 -translate-y-[50%] right-5 text-2xl round-full p-2 bg-black/20 text-white cursor-pointer'>
+							<BsChevronCompactRight onClick={nextSlide} size={30} />
+						</div>
+
+						<div className='flex top-4 justify-center py-2'>
+							{slides.map((slide, slideIndex) => (
+								<div
+									key={slideIndex}
+									onClick={() => goToSlide(slideIndex)}
+									className='text-2xl cursor-pointer'
+								></div>
+							))}
+						</div>
+					</div>
+					<div className='col-span-1 flex flex-col w-[450px] mx-auto text-center'>
+						<img className='w-[400px] mx-auto' src={Filter} alt='/' />
+						<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black'>
+							Search and Filter
+						</h1>
+
+						<p className='text-xl font-light text-black md:text-2xl sm:text-xl'>
+							ข้อมูลสายการผลิตที่มีมากมาย สามารถสืบค้นหาข้อมูลการผลิตด้วยระบบ
+							Search and Filter
+							เพื่อนำข้อมูลสายการผลิตมาสู่กระบวนการวิเคราะห์ปัญหาได้อย่างรวดเร็ว
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>

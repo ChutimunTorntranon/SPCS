@@ -15,7 +15,7 @@ function Softwarepage() {
 				<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
 					Software as a service
 				</h1>
-				<div className='grid md:grid-cols-6 gap-5'>
+				<div className='grid md:grid-cols-3 gap-12'>
 					<div className='text-center shrink'>
 						<img src={dashboard} alt='' />
 						<h1>Dashboard System</h1>

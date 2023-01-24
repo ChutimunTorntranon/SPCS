@@ -17,7 +17,7 @@ function Systempage() {
 						FLOW SPCS{' '}
 					</p>
 					<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
-						ระบบที่ของเราครอบคลุมอะไรบ้าง?
+						ระบบของเราครอบคลุมอะไรบ้าง?
 					</h1>
 				</div>
 				<div className='grid md:grid-cols-3 gap-3'>
@@ -30,8 +30,7 @@ function Systempage() {
 							</h5>
 
 							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-								Material (แมทเทียเรียล) หรือ วัตถุดิบ คือ
-								สิ่งของสิ่งหนึ่งที่ใช้สำหรับสร้างผลิตภัณฑ์ต่างๆ
+								สิ่งของที่ใช้สำหรับสร้างผลิตภัณฑ์ต่างๆ
 								เพื่อให้กิจการสามารถเอาผลิตภัณฑ์ไปค้าขายหรือทำการบริการ
 								ให้กิจการได้พิจารณาว่าวัสดุที่กิจการได้ซื้อมา
 								สามารถทำประโยชน์การค้าขายได้มากน้อยขนาดไหน
@@ -44,7 +43,7 @@ function Systempage() {
 
 						<div className='p-5'>
 							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
-								planning
+								Planning
 							</h5>
 
 							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
@@ -58,7 +57,7 @@ function Systempage() {
 
 						<div className='p-5'>
 							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
-								production
+								Production
 							</h5>
 
 							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
@@ -92,7 +91,7 @@ function Systempage() {
 
 						<div className='p-5'>
 							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
-								warehouse
+								Warehouse
 							</h5>
 
 							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
