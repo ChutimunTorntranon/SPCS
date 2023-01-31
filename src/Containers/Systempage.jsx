@@ -102,8 +102,8 @@ function Systempage() {
 							</h5>
 
 							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont'>
-								เรามีกระบวนการจัดเก็บสินค้าและตาม{' '}
-								<span className='EngFont'>Location Code</span>&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;เรามีกระบวนการจัดเก็บสินค้าและตาม
+								<span className='EngFont'>Location Code</span>
 								และตรวจสอบเพื่อจัดสรรก่อนส่งมอบให้กับลูกค้า
 								พร้อมทั้งรายงานยอด&nbsp;
 								<span className='EngFont'>Inventory</span>
@@ -119,7 +119,7 @@ function Systempage() {
 							</h5>
 
 							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont'>
-								เรามีการบริหารจัดการและควบคุมกระบวนการขนส่งสินค้า
+								&nbsp;&nbsp;&nbsp;&nbsp;เรามีการบริหารจัดการและควบคุมกระบวนการขนส่งสินค้า
 								โดยจะต้องจัดส่งให้ครบถ้วนในสภาพที่สมบูรณ์ ตรงต่อเวลา
 								คุ้มค่าและประหยัดต้นทุนค่าขนส่ง
 							</p>

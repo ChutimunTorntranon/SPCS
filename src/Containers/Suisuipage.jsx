@@ -13,10 +13,10 @@ function Suisuipage() {
 						Control System{' '}
 					</p>
 					<p className='text-2xl font-light text-black p-3 ThaiFont'>
-						ใช้ในสายการผลิตอุตสาหกรรมที่ก้าวสู่ ยุคอุตสาหกรรม 4.0 <br></br>
-						เข้ามาสนับสนุนการพัฒนาโรงงานให้เป็น{' '}
-						<span className='EngFont'>Smart Factory</span> <br></br>
-						โดยมุ่งเน้นการเชื่อมต่อข้อมูลแบบ{' '}
+						&nbsp;&nbsp;&nbsp;ใช้ในสายการผลิตอุตสาหกรรมที่ก้าวสู่ ยุคอุตสาหกรรม
+						4.0 เข้ามาสนับสนุนการพัฒนาโรงงานให้เป็น{' '}
+						<span className='EngFont'>Smart Factory</span>
+						&nbsp;โดยมุ่งเน้นการเชื่อมต่อข้อมูลแบบ{' '}
 						<span className='EngFont'>Realtime</span> และสามารถ{' '}
 						<span className='EngFont'>Monitor and Control</span> &nbsp;
 						สายการผลิตได้ถูกต้องและรวดเร็ว
