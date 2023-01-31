@@ -63,14 +63,14 @@ function Filterpage() {
 					</div>
 					<div className='col-span-1 flex flex-col w-[450px] mx-auto text-center'>
 						<img className='w-[400px] mx-auto' src={Filter} alt='/' />
-						<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black'>
+						<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black p-3 EngFont'>
 							Search and Filter
 						</h1>
 
-						<p className='text-xl font-light text-black md:text-2xl sm:text-xl'>
+						<p className='text-xl font-light text-black md:text-2xl sm:text-xl p-3 ThaiFont'>
 							ข้อมูลสายการผลิตที่มีมากมาย สามารถสืบค้นหาข้อมูลการผลิตด้วยระบบ
-							Search and Filter
-							เพื่อนำข้อมูลสายการผลิตมาสู่กระบวนการวิเคราะห์ปัญหาได้อย่างรวดเร็ว
+							<span className='EngFont'>&nbsp;Search and Filter</span>
+							&nbsp;เพื่อนำข้อมูลสายการผลิตมาสู่กระบวนการวิเคราะห์ปัญหาได้อย่างรวดเร็ว
 						</p>
 					</div>
 				</div>

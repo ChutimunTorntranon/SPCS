@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Prompt:wght@200;300;400&family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -165,4 +167,11 @@ nav {
 	-ms-transform: scale(1.1);
 	transform: scale(1.1);
 	transition: 1s ease;
+}
+
+.EngFont {
+	font-family: 'Rubik', sans-serif;
+}
+.ThaiFont {
+	font-family: 'Prompt', sans-serif;
 }

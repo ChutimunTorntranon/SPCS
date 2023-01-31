@@ -6,56 +6,56 @@ import SER from '../team/Hnuy.png';
 import SER2 from '../team/Golf.png';
 import SALE from '../team/Few.png';
 import DEV from '../team/Jeff.png';
-import TECH from '../team/PDong.png';
+import TECH from '../team/Maii.png';
 function BitSoftTeam() {
 	return (
 		<div className='bg-[#FFFFFF]'>
 			<div className='container mx-auto'>
-				<div className='text-center font-extrabold underline decoration-sky-500 text-[50px]'>
+				<div className='text-center font-extrabold underline decoration-sky-500 text-[50px] EngFont'>
 					BITSOFT TEAM
 				</div>
-				<div className='grid grid-cols-3 mt-8'>
+				<div className='grid xl:grid-cols-3 grid-cols-1 mt-8'>
 					<div className='text-center'>
 						<img src={CEO} alt='' className='mx-auto w-[300px]'></img>
-						<p className='mt-5'>K.Parada Bunnag</p>
-						<p>Chief Executive Officer (CEO)</p>
+						<p className='mt-5 EngFont'>K.Parada Bunnag</p>
+						<p className='EngFont'>Chief Executive Officer (CEO)</p>
 					</div>
 					<div className='text-center'>
 						<img src={COO} alt='' className='mx-auto w-[300px]'></img>
-						<p className='mt-5'>K.Patcharee Bunnag</p>
-						<p>Chief Operating Officer (COO)</p>
+						<p className='mt-5 EngFont'>K.Patcharee Bunnag</p>
+						<p className='EngFont'>Chief Operating Officer (COO)</p>
 					</div>
 					<div className='text-center'>
 						<img src={CTO} alt='' className='mx-auto w-[300px]'></img>
-						<p className='mt-5'>K.Bhon Bunnag</p>
-						<p>Chief Technology Officer (CTO)</p>
+						<p className='mt-5 EngFont'>K.Bhon Bunnag</p>
+						<p className='EngFont'>Chief Technology Officer (CTO)</p>
 					</div>
 				</div>
-				<div className='grid grid-cols-5 mt-10 mb-10'>
+				<div className='grid xl:grid-cols-5 grid-cols-1 mt-10 mb-10'>
 					<div className='text-center'>
 						<img src={SER} alt='' className='mx-auto w-[200px]'></img>
-						<p className='mt-5'>Prakrit Yoophoon (Hnuy)</p>
-						<p>Software Engineer</p>
+						<p className='mt-5 EngFont'>Prakrit Yoophoon (Hnuy)</p>
+						<p className='EngFont'>Software Engineer</p>
 					</div>
 					<div className='text-center'>
 						<img src={SER2} alt='' className='mx-auto w-[200px]'></img>
-						<p className='mt-5'>Natthanan Morasuk (Golf)</p>
-						<p>Software Engineer</p>
+						<p className='mt-5 EngFont'>Natthanan Morasuk (Golf)</p>
+						<p className='EngFont'>Software Engineer</p>
 					</div>
 					<div className='text-center'>
 						<img src={TECH} alt='' className='mx-auto w-[200px]'></img>
-						<p className='mt-5'>Kittisak Boonpinyo (Dong)</p>
-						<p>Technical Specialist</p>
+						<p className='mt-5 EngFont'>Akaradad Viriyamataloj (Mai)</p>
+						<p className='EngFont'>Technical Specialist</p>
 					</div>
 					<div className='text-center'>
 						<img src={SALE} alt='' className='mx-auto w-[200px]'></img>
-						<p className='mt-5'>Nutdanai Pulkert (Few)</p>
-						<p>Sale Software</p>
+						<p className='mt-5 EngFont'>Nutdanai Pulkert (Few)</p>
+						<p className='EngFont'>Sale Software</p>
 					</div>
 					<div className='text-center'>
 						<img src={DEV} alt='' className='mx-auto w-[200px]'></img>
-						<p className='mt-5'>Chutimun Torntranon (Jeff)</p>
-						<p>Junior Developer</p>
+						<p className='mt-5 EngFont'>Chutimun Torntranon (Jeff)</p>
+						<p className='EngFont'>Junior Developer</p>
 					</div>
 				</div>
 			</div>

@@ -10,14 +10,14 @@ function Systempage() {
 		<div className='w-full py-16 px-4'>
 			<div className='max-w-[1240px] mx-auto grid gap-4'>
 				<div className='flex flex-col justify-center'>
-					<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
+					<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold p-3 EngFont'>
 						System Overview
 					</h1>
-					<p className='text-[#8EACC1] font-bold md:text-4xl sm:text-3xl text-2xl'>
+					<p className='text-[#8EACC1] font-bold md:text-4xl sm:text-3xl text-2xl p-3 EngFont'>
 						FLOW SPCS{' '}
 					</p>
-					<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
-						ระบบของเราครอบคลุมอะไรบ้าง?
+					<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold p-3 ThaiFont'>
+						<span className='EngFont'>SPCS</span> ของเรามีอะไรบ้าง?
 					</h1>
 				</div>
 				<div className='grid md:grid-cols-3 gap-3'>
@@ -25,16 +25,14 @@ function Systempage() {
 						<img className='rounded-t-lg bg-gray-300' src={material} alt='' />
 
 						<div className='p-5'>
-							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
+							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white p-1 EngFont'>
 								Material
 							</h5>
 
-							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-								สิ่งของที่ใช้สำหรับสร้างผลิตภัณฑ์ต่างๆ
-								เพื่อให้กิจการสามารถเอาผลิตภัณฑ์ไปค้าขายหรือทำการบริการ
-								ให้กิจการได้พิจารณาว่าวัสดุที่กิจการได้ซื้อมา
-								สามารถทำประโยชน์การค้าขายได้มากน้อยขนาดไหน
-								และให้กิจการได้วางแผนการดำเนินงานทางธุรกิจต่อไป
+							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont'>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรามีการจัดการและควบคุมวัตถุดิบ
+								เพื่อนำเข้าไปสู่กระบวนการผลิต พร้อมทั้งรายงานยอด{' '}
+								<span className='EngFont'>Inventory</span>
 							</p>
 						</div>
 					</div>
@@ -42,28 +40,39 @@ function Systempage() {
 						<img className='rounded-t-lg' src={planning} alt='' />
 
 						<div className='p-5'>
-							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
+							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white p-1 EngFont'>
 								Planning
 							</h5>
 
-							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-								การหาทางเลือกที่ดีที่สุดในการปฏิบัติงาน โดยใช้ปัจจัยต่างๆและมี
-								เหตุผลเพื่อให้การดำเนินงานในอนาคตเป็นไปโดยเรียบร้อยและมีประสิทธิภาพที่สุด
+							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400 text-left p-1 ThaiFont'>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรามีการวางแผนและจัดสรรระบบการผลิต
+								เพื่อให้บรรลุเป้าหมายและมีประสิทธิภาพสูงสุด
+								รวมทั้งส่งมอบให้ทันเวลา <span className='EngFont'>SPCS</span>{' '}
+								ของเราสามารถออกแบบแผนการผลิตได้ทั้ง 2 แบบ คือ{' '}
+								<span className='EngFont'>Make to Order , Make to stock</span>
 							</p>
 						</div>
 					</div>
 					<div className='max-w-sm bg-gray-300 border border-gray-300 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 shrink'>
 						<img className='rounded-t-lg' src={production} alt='' />
-
 						<div className='p-5'>
-							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
+							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white p-1 EngFont'>
 								Production
 							</h5>
 
-							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-								การผลิต เป็นกระบวนการเพิ่มคุณค่าหรือประโยชน์ ทางเศรษฐกิจ
-								(economic utility) ให้กับปัจจัยการผลิตต่างๆ เ
-								พื่อตอบสนองความต้องการของลูกค้าให้เกิดประโยชน์มากที่สุด
+							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont'>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรามีการผลิตและมุ่งเน้นการเชื่อมต่อข้อมูลแบบ&nbsp;
+								<span className='EngFont'>Real-time</span> และสามารถ{' '}
+								<span className='EngFont'>Monitor and Control</span>&nbsp;
+								สายการผลิตได้ถูกต้องและรวดเร็ว รวมถึงการวัดประสิทธิผล
+								โดยรวมของเครื่องจักร
+								<span className='EngFont'>
+									(OEE - Overall Equipment Effectiveness) SPCS
+								</span>
+								&nbsp;สามารถสืบค้นหาข้อมูลด้วยระบบ{' '}
+								<span className='EngFont'>Search and Filter</span>&nbsp;
+								และยกเลิกการใช้กระดาษในการบันทึกข้อมูลสายการผลิต
+								รวมถึงลดความผิดพลาด
 							</p>
 						</div>
 					</div>
@@ -73,16 +82,14 @@ function Systempage() {
 						<img className='rounded-t-lg' src={quality} alt='' />
 
 						<div className='p-5'>
-							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
+							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white p-1 EngFont'>
 								Quality Control
 							</h5>
 
-							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-								การควบคุมคุณภาพสินค้าให้เป็นไปตามคุณสมบัติที่กำหนดไว้
-								และสามารถสร้างความพึงพอใจให้กับลูกค้าสูงสุด ด้วยกระบวนการ
-								Inspection คือกระบวนการการตรวจสอบตำหนิและจุดบกพร่องของผลิตภัณฑ์
-								เพื่อที่จะทำการส่งกลับไปแก้ไขหรือคัดทิ้ง
-								จากนั้นจึงทำการบันทึกและเก็บสถิติของลักษณะรวมทั้งจำนวนผลิตภัณฑ์ต่างๆ
+							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont'>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรามีการควบคุมคุณภาพสินค้าให้เป็นไปตามมาตรฐานสากลและลูกค้าที่ได้กำหนดไว้
+								รวมทั้งมีการรวบรวมข้อมูลของเสียในรูปแบบ{' '}
+								<span className='EngFont'>Defect Pareto Chart</span>
 							</p>
 						</div>
 					</div>
@@ -90,17 +97,16 @@ function Systempage() {
 						<img className='rounded-t-lg' src={warehouse} alt='' />
 
 						<div className='p-5'>
-							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
+							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white p-1 EngFont'>
 								Warehouse
 							</h5>
 
-							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-								สถานที่ที่ใช้สำหรับการวาง เก็บ
-								หรือพักสินค้าเพื่อรอการกระจายหรือการขนส่ง
-								ในบางครั้งอาจมีการใช้คำเรียกอื่น ๆ เช่น โกดัง โรงเก็บสินค้า
-								ศูนย์กระจายสินค้า เป็นต้น โดยทั่วไปแล้วมักถูกใช้โดยผู้ผลิต
-								ผู้นำเข้า ผู้ส่งออก ผู้ค้าส่ง
-								รวมไปถึงผู้ที่เกี่ยวข้องกับธุรกิจขนส่งหรือโลจิสติกส์
+							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont'>
+								เรามีกระบวนการจัดเก็บสินค้าและตาม{' '}
+								<span className='EngFont'>Location Code</span>&nbsp;
+								และตรวจสอบเพื่อจัดสรรก่อนส่งมอบให้กับลูกค้า
+								พร้อมทั้งรายงานยอด&nbsp;
+								<span className='EngFont'>Inventory</span>
 							</p>
 						</div>
 					</div>
@@ -108,15 +114,14 @@ function Systempage() {
 						<img className='rounded-t-lg' src={Logis} alt='' />
 
 						<div className='p-5'>
-							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
+							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white p-1 EngFont'>
 								Logistics
 							</h5>
 
-							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-								ระบบการจัดส่งสินค้า สิ่งของ
-								หรือทรัพยากรใดก็ตามจากแต่ละสถานที่ไปยังจุดหมาย
-								รวมไปถึงการบริหารสินค้าคงคลัง การจัดการบรรจุหีบห่อ
-								โดยมีจุดประสงค์หลักคือการนำส่งของไปถึงมือผู้รับอย่างปลอดภัย
+							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont'>
+								เรามีการบริหารจัดการและควบคุมกระบวนการขนส่งสินค้า
+								โดยจะต้องจัดส่งให้ครบถ้วนในสภาพที่สมบูรณ์ ตรงต่อเวลา
+								คุ้มค่าและประหยัดต้นทุนค่าขนส่ง
 							</p>
 						</div>
 					</div>

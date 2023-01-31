@@ -70,16 +70,17 @@ function Dashboard2() {
 					</div>
 					<div className='col-span-1 flex flex-col w-[450px] mx-auto text-center'>
 						<img className='w-[400px] mx-auto' src={dashboard} alt='/' />
-						<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black'>
+						<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black p-3 EngFont'>
 							DashBoard
 						</h1>
-						<p className='text-black font-bold md:text-4xl sm:text-3xl text-2xl'>
+						<p className='text-black font-bold md:text-4xl sm:text-3xl text-2xl p-3 EngFont'>
 							Single Pane of Glass{' '}
 						</p>
-						<p className='text-xl font-light text-black md:text-2xl sm:text-xl'>
-							DashBoard ที่ออกแบบเพื่อวิเคราะห์ข้อมูลด้วย<br></br> Data
-							Visualization เพื่อให้เห็นภาพรวม <br></br>
-							แนวโน้มของข้อมูลได้อย่างรวดเร็ว
+						<p className='text-xl font-light text-black md:text-2xl sm:text-xl p-3 ThaiFont'>
+							<span className='EngFont'>DashBoard</span>{' '}
+							ที่ออกแบบเพื่อวิเคราะห์ข้อมูลด้วย{' '}
+							<span className='EngFont'>Data Visualization</span>
+							&nbsp;เพื่อให้เห็นภาพรวม แนวโน้มของข้อมูลได้อย่างรวดเร็ว
 						</p>
 					</div>
 				</div>

@@ -56,17 +56,22 @@ function Realtimepage() {
 					</div>
 					<div className='col-span-1 flex flex-col w-[450px] mx-auto text-center'>
 						<img className='w-[400px] mx-auto' src={Realtime} alt='/' />
-						<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black'>
+						<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black p-3 EngFont'>
 							Real-time
 						</h1>
-						<p className='text-black font-bold md:text-4xl sm:text-3xl text-2xl'>
+						<p className='text-black font-bold md:text-4xl sm:text-3xl text-2xl p-3 EngFont'>
 							Remote-Update{' '}
 						</p>
-						<p className='text-xl font-light text-black md:text-2xl sm:text-xl'>
-							มุ่งเน้นการเชื่อมต่อข้อมูลแบบ Real-Time และสามารถ Monitor and
-							Control สายการผลิตได้ถูกต้องและรวดเร็ว
+						<p className='text-xl font-light text-black md:text-2xl sm:text-xl p-3 ThaiFont'>
+							มุ่งเน้นการเชื่อมต่อข้อมูลแบบ{' '}
+							<span className='EngFont'>Real-Time</span> และสามารถ{' '}
+							<span className='EngFont'>Monitor and Control</span>
+							สายการผลิตได้ถูกต้องและรวดเร็ว
 							รับข้อมูลและข่าวสารได้จากทุกที่รวมถึงแสดงผลการวัดประสิทธิผล
-							โดยรวมของเครื่องจักร (OEE - Overall Eqiupment Effectiveness)
+							โดยรวมของเครื่องจักร{' '}
+							<span className='EngFont'>
+								(OEE - Overall Eqiupment Effectiveness)
+							</span>
 						</p>
 					</div>
 				</div>
