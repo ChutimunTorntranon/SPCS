@@ -30,9 +30,12 @@ function Systempage() {
 							</h5>
 
 							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont'>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรามีการจัดการและควบคุมวัตถุดิบ
-								เพื่อนำเข้าไปสู่กระบวนการผลิต พร้อมทั้งรายงานยอด{' '}
-								<span className='EngFont'>Inventory</span>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรามีระบบการจัดการและควบคุมวัตถุดิบ
+								เพื่อนำเข้าไปสู่กระบวนการผลิตโดยมีระบบ{' '}
+								<span className='EngFont'>FIFO</span> พร้อมทั้งรายงานยอด{' '}
+								<span className='EngFont'>
+									Inventory (Minimum-Maximum Stock)
+								</span>
 							</p>
 						</div>
 					</div>
@@ -45,10 +48,10 @@ function Systempage() {
 							</h5>
 
 							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400 text-left p-1 ThaiFont'>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรามีการวางแผนและจัดสรรระบบการผลิต
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรามีระบบการวางแผนและจัดสรรแผนการผลิต
 								เพื่อให้บรรลุเป้าหมายและมีประสิทธิภาพสูงสุด
-								รวมทั้งส่งมอบให้ทันเวลา <span className='EngFont'>SPCS</span>{' '}
-								ของเราสามารถออกแบบแผนการผลิตได้ทั้ง 2 แบบ คือ{' '}
+								รวมทั้งส่งมอบให้ทันเวลาและสามารถออกแบบแผนการผลิตได้ทั้ง 2 รูปแบบ
+								คือ{' '}
 								<span className='EngFont'>Make to Order , Make to stock</span>
 							</p>
 						</div>
@@ -61,7 +64,7 @@ function Systempage() {
 							</h5>
 
 							<p className='mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont'>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรามีการผลิตและมุ่งเน้นการเชื่อมต่อข้อมูลแบบ&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรามีระบบควบคุมการผลิตและมุ่งเน้นการเชื่อมต่อข้อมูลแบบ&nbsp;
 								<span className='EngFont'>Real-time</span> และสามารถ{' '}
 								<span className='EngFont'>Monitor and Control</span>&nbsp;
 								สายการผลิตได้ถูกต้องและรวดเร็ว รวมถึงการวัดประสิทธิผล
@@ -106,7 +109,9 @@ function Systempage() {
 								<span className='EngFont'>Location Code</span>
 								และตรวจสอบเพื่อจัดสรรก่อนส่งมอบให้กับลูกค้า
 								พร้อมทั้งรายงานยอด&nbsp;
-								<span className='EngFont'>Inventory</span>
+								<span className='EngFont'>
+									Inventory (Minimum-Maximum Stock)
+								</span>
 							</p>
 						</div>
 					</div>

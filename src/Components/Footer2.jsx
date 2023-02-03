@@ -13,7 +13,7 @@ function Footer2() {
 					<p className='text-body-color text-base p-3 EngFont'>
 						<br></br>&nbsp;&nbsp;
 						<strong>
-							BUNNAG INDUSTRAIL TECHNOLOGIES AND SOFTWARE CO.,LTD.
+							BUNNAG INDUSTRIAL TECHNOLOGIES AND SOFTWARE CO.,LTD.
 						</strong>
 						<br></br>
 						&nbsp;&nbsp;Address : 10 Soi Ramintra 117 yeak 2 Ramintra Rd.
