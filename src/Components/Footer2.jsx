@@ -25,8 +25,8 @@ function Footer2() {
           <p className="text-body-color text-base ml-10 mt-6 p-3 EngFont">
               Mobile  : 083-101-8704 Mr.Nutdanai Pulkert (Few)
             <br></br>
-            &nbsp;&nbsp;E-mail   : sales.software@baethai.com<br></br>  ID Line
-             : sale.bitsoft
+            &nbsp;&nbsp;E-mail   : sale.bitsoft@gmail.com<br></br>  ID Line  :
+            sale.bitsoft
           </p>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
