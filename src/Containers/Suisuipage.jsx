@@ -1,6 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Dashboard from "../assets/dashboard.webp";
 function Suisuipage() {
+  const { t, i18n } = useTranslation();
+  const handleChangeLng = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
   return (
     <div className="w-full py-16 px-4 ">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-4">
@@ -13,13 +19,13 @@ function Suisuipage() {
             Control System{" "}
           </p>
           <p className="text-xl font-light text-black p-3 ThaiFont">
-            &nbsp;&nbsp;&nbsp;ใช้ในสายการผลิตอุตสาหกรรมที่ก้าวสู่ ยุคอุตสาหกรรม
-            4.0 เข้ามาสนับสนุนการพัฒนาโรงงานให้เป็น{" "}
+            &nbsp;&nbsp;&nbsp;{t("controlSystem1")}{" "}
             <span className="EngFont">Smart Factory</span>
-            &nbsp;โดยมุ่งเน้นการเชื่อมต่อข้อมูลแบบ{" "}
-            <span className="EngFont">Realtime</span> &nbsp;และสามารถ{" "}
+            &nbsp;{t("controlSystem2")}{" "}
+            <span className="EngFont">Realtime</span> &nbsp;
+            {t("controlSystem3")}{" "}
             <span className="EngFont">Monitor and Control</span>{" "}
-            สายการผลิตได้ถูกต้องและรวดเร็ว
+            {t("controlSystem4")}
           </p>
         </div>
       </div>

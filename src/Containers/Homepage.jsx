@@ -1,6 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import Typed from "react-typed";
+import { useTranslation } from "react-i18next";
 function Homepage() {
+  const localStorageLanguage = localStorage.getItem("lng");
+
+  const [lang, setLang] = useState(
+    localStorageLanguage ? localStorageLanguage : "th"
+  );
+  const { t, i18n } = useTranslation();
+
+  const handleChangeTH = (lng) => {
+    setLang("th");
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
+  const handleChangEng = (lng) => {
+    setLang("en");
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
+
   return (
     <div className="text-black bg-main">
       <img
@@ -28,6 +47,29 @@ function Homepage() {
           />
         </div>
       </div>
+      <ul className="justify-end space-y-8 md:flex md:space-x-6 md:space-y-0 text-lg right-3">
+        <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+          <button
+            className={`Font1 ${
+              lang === "th" ? "text-blue-600 underline" : ""
+            }`}
+            onClick={() => handleChangeTH("th")}
+          >
+            TH
+          </button>
+        </li>
+
+        <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+          <button
+            className={`Font1 ${
+              lang === "en" ? "text-blue-600 underline" : ""
+            }`}
+            onClick={() => handleChangEng("en")}
+          >
+            EN
+          </button>
+        </li>
+      </ul>
     </div>
   );
 }
