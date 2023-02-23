@@ -5,7 +5,13 @@ import production from "../assets/production.jpg";
 import quality from "../assets/QC.jpg";
 import warehouse from "../assets/warehouse.jpg";
 import Logis from "../assets/Logis.jpg";
+import { useTranslation } from "react-i18next";
 function Systempage() {
+  const { t, i18n } = useTranslation();
+  const handleChangeLng = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
   return (
     <div className="w-full py-16 px-4">
       <div className="max-w-[1240px] mx-auto grid gap-4">
@@ -17,7 +23,7 @@ function Systempage() {
             FLOW SPCS{" "}
           </p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold p-3 ThaiFont">
-            <span className="EngFont">SPCS</span> ของเรามีอะไรบ้าง?
+            <span className="EngFont">{t("SPCS1")}</span> {t("SPCS2")}
           </h1>
         </div>
         <div className="grid md:grid-cols-3 gap-3">
@@ -30,12 +36,10 @@ function Systempage() {
               </h5>
 
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont">
-                &nbsp;&nbsp;&nbsp;&nbsp;ระบบการจัดการและควบคุมวัตถุดิบ
-                เพื่อนำเข้าไปสู่กระบวนการผลิตโดยมีระบบ{" "}
-                <span className="EngFont">FIFO</span> พร้อมทั้งรายงานยอด{" "}
-                <span className="EngFont">
-                  Inventory (Minimum-Maximum Stock)
-                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;{t("materials1")}{" "}
+                <span className="EngFont">{t("materials2")}</span>{" "}
+                {t("materials3")}{" "}
+                <span className="EngFont">{t("materials4")}</span>
               </p>
             </div>
           </div>
@@ -48,11 +52,8 @@ function Systempage() {
               </h5>
 
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-left p-1 ThaiFont">
-                &nbsp;&nbsp;&nbsp;&nbsp;ระบบการวางแผนและจัดสรรแผนการผลิต
-                เพื่อให้บรรลุเป้าหมายและมีประสิทธิภาพสูงสุด
-                รวมทั้งส่งมอบให้ทันเวลาและสามารถออกแบบแผนการผลิตได้ทั้ง 2 รูปแบบ
-                คือ{" "}
-                <span className="EngFont">Make to Order , Make to stock</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;{t("planing1")}{" "}
+                <span className="EngFont">{t("planing2")}</span>
               </p>
             </div>
           </div>
@@ -64,14 +65,12 @@ function Systempage() {
               </h5>
 
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont">
-                &nbsp;&nbsp;&nbsp;&nbsp;ระบบควบคุมการผลิตและมุ่งเน้นการเชื่อมต่อข้อมูลแบบ&nbsp;
-                <span className="EngFont">Real-time</span> และสามารถ{" "}
-                <span className="EngFont">Monitor and Control</span>&nbsp;
-                สายการผลิตได้ถูกต้องและรวดเร็ว รวมถึงการวัดประสิทธิผล
-                โดยรวมของเครื่องจักร
-                <span className="EngFont">
-                  (OEE - Overall Equipment Effectiveness)
-                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;{t("production1")}&nbsp;
+                <span className="EngFont">{t("production2")}</span>{" "}
+                {t("production3")}{" "}
+                <span className="EngFont">{t("production4")}</span>&nbsp;
+                {t("production5")}
+                <span className="EngFont">{t("production6")}</span>
               </p>
             </div>
           </div>
@@ -86,9 +85,8 @@ function Systempage() {
               </h5>
 
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont">
-                &nbsp;&nbsp;&nbsp;&nbsp;การควบคุมคุณภาพสินค้าให้เป็นไปตามมาตรฐานสากลและลูกค้าที่ได้กำหนดไว้
-                รวมทั้งมีการรวบรวมข้อมูลของเสียในรูปแบบ{" "}
-                <span className="EngFont">Defect Pareto Chart</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;{t("qualityControl1")}{" "}
+                <span className="EngFont">{t("qualityControl2")}</span>
               </p>
             </div>
           </div>
@@ -101,13 +99,10 @@ function Systempage() {
               </h5>
 
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont">
-                &nbsp;&nbsp;&nbsp;&nbsp;กระบวนการจัดเก็บสินค้าและตาม
-                <span className="EngFont">Location Code</span>
-                และตรวจสอบเพื่อจัดสรรก่อนส่งมอบให้กับลูกค้า
-                พร้อมทั้งรายงานยอด&nbsp;
-                <span className="EngFont">
-                  Inventory (Minimum-Maximum Stock)
-                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;{t("wareHouse1")}
+                <span className="EngFont">{t("wareHouse2")}</span>
+                {t("wareHouse3")}&nbsp;
+                <span className="EngFont">{t("wareHouse4")}</span>
               </p>
             </div>
           </div>
@@ -120,9 +115,7 @@ function Systempage() {
               </h5>
 
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 p-1 ThaiFont">
-                &nbsp;&nbsp;&nbsp;&nbsp;การบริหารจัดการและควบคุมกระบวนการขนส่งสินค้า
-                โดยจะต้องจัดส่งให้ครบถ้วนในสภาพที่สมบูรณ์ ตรงต่อเวลา
-                คุ้มค่าและประหยัดต้นทุนค่าขนส่ง
+                &nbsp;&nbsp;&nbsp;&nbsp;{t("logistics")}
               </p>
             </div>
           </div>
