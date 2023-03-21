@@ -6,8 +6,7 @@ import img4 from "../gallery/DashBoard/Dash4.png";
 import img5 from "../gallery/DashBoard/Dash5.png";
 import img6 from "../gallery/DashBoard/Dash6.png";
 import img7 from "../gallery/DashBoard/Dash7.png";
-import img8 from "../gallery/DashBoard/Dash8.png";
-// import { Carousel } from 'flowbite-react';
+
 import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 // import { RxDotFilled } from 'react-icons/rx'
@@ -28,7 +27,6 @@ function Dashboard2() {
     { url: img5 },
     { url: img6 },
     { url: img7 },
-    { url: img8 },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

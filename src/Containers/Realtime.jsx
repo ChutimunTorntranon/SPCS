@@ -1,6 +1,5 @@
 import React from "react";
 import Realtime from "../icons/real-time1.png";
-import img1 from "../gallery/Realtime/Real0.png";
 import img2 from "../gallery/Realtime/Real1.png";
 import img3 from "../gallery/Realtime/Real2.png";
 import img4 from "../gallery/Realtime/Real3.png";
@@ -15,7 +14,7 @@ function Realtimepage() {
     localStorage.setItem("lng", lng);
   };
 
-  const slides = [{ url: img1 }, { url: img2 }, { url: img3 }, { url: img4 }];
+  const slides = [{ url: img2 }, { url: img3 }, { url: img4 }];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

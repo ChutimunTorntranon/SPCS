@@ -3,8 +3,6 @@ import Filter from "../icons/filter2.png";
 import img1 from "../gallery/Filter/Fil1.png";
 import img2 from "../gallery/Filter/Fil2.png";
 import img3 from "../gallery/Filter/Fil3.png";
-import img4 from "../gallery/Filter/Fil4.png";
-import img5 from "../gallery/Filter/Fil5.png";
 
 import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
@@ -16,13 +14,7 @@ function Filterpage() {
     localStorage.setItem("lng", lng);
   };
 
-  const slides = [
-    { url: img1 },
-    { url: img2 },
-    { url: img3 },
-    { url: img4 },
-    { url: img5 },
-  ];
+  const slides = [{ url: img1 }, { url: img2 }, { url: img3 }];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

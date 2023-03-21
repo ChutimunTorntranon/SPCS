@@ -13,7 +13,7 @@ function MainCustomer() {
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <div className="flex flex-col justify-center w-[500px]">
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold p-2 text-black EngFont">
-            Our used customers
+            Our customers
           </h1>
           <img className="w-[400px] mx-auto" src={logo} alt="/"></img>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold p-2 text-black EngFont text-center">

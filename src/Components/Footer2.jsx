@@ -16,7 +16,7 @@ function Footer2() {
               BUNNAG INDUSTRIAL TECHNOLOGIES AND SOFTWARE CO.,LTD.
             </strong>
             <br></br>
-            &nbsp;&nbsp;Address : 10 Soi Ramintra 117 yeak 2 Ramintra Rd.
+            &nbsp;&nbsp;Address : 10/1 Soi Ramintra 117 yeak 2 Ramintra Rd.
             <br></br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Minburi
             , Minburi , Bangkok 10510
@@ -32,7 +32,7 @@ function Footer2() {
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400 EngFont">
           © 3{" "}
-          <a href="https://flowbite.com/" class="hover:underline">
+          <a href="/" class="hover:underline">
             BITSOFT™
           </a>
           . All Rights Reserved.
